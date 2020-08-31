@@ -1,7 +1,5 @@
-using System;
 using System.Text;
 using Xunit;
-
 namespace Cracking.ChapterOne.Tests
 {
     public class ExerciseTests
@@ -18,6 +16,7 @@ namespace Cracking.ChapterOne.Tests
             Assert.Equal(expected, Exercises.UniqueCharactersNoExtraSpace(data));
             Assert.Equal(expected, Exercises.UniqueCharactersUsingHashset(data));
         }
+
         [Theory]
         [InlineData("", "")]
         [InlineData("a", "a")]
@@ -57,7 +56,6 @@ namespace Cracking.ChapterOne.Tests
         [InlineData("aba", "aaa", false)]
         [InlineData("", "", true)]
         [InlineData("a", "b", false)]
-
         public void Anagram(string original, string testing, bool result)
         {
             Assert.Equal(result, Exercises.IsAnamgrams(original, testing));

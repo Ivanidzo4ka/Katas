@@ -5,9 +5,9 @@
 
     <IsPackable>false</IsPackable>
 
-    <RootNamespace>Cracking.ChapterOne.Tests</RootNamespace>
+    <AssemblyName>Cracking.ChapterTwo.Tests</AssemblyName>
 
-    <AssemblyName>Cracking.ChapterOne.Tests</AssemblyName>
+    <RootNamespace>Cracking.ChapterTwo.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ChapterOne\ChapterOne.csproj" />
+    <ProjectReference Include="..\ChapterTwo\ChapterTwo.csproj" />
   </ItemGroup>
 
 </Project>
